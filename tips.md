@@ -1,10 +1,3 @@
----
-title: Appreciation Corner
-date: 2020-09-17 00:00:00
-description: This is a page where we show appreciation towards all kind donors. We could not have made this possible with you. Thank you.
-featured_image: '/images/demo.jpg'
----
-
 This page is a demo that shows everything you can do inside portfolio and blog posts.
 
 We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
