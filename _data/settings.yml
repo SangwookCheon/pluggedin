@@ -1,10 +1,10 @@
 basic_settings:
-  site_title: Made
+  site_title: Plugged-IN
   favicon_image: /images/favicon.png
 
 header_settings:
-  logo_image: 
-  logo_width: 100
+  logo_image: /images/logo.png
+  logo_width: 50
 
 menu_settings:
   menu_items:
@@ -14,9 +14,9 @@ menu_settings:
       url: '/blog/'
 
 footer_settings:
-  logo_image: 
-  logo_width: 100
-  tagline: A beautiful, minimal portfolio Jekyll theme
+  logo_image:
+  logo_width: 10
+  tagline: Service Club @ Jakarta Intercultural School
 
 hero_settings:
   background_image: /images/backgrounds/background-hero.svg
@@ -65,14 +65,14 @@ color_settings:
   text_dark_color: '#202224'
   text_medium_color: '#6C7A89'
   text_light_color: '#AEB3BB'
-  accent_color: '#4C60E6'
+  accent_color: '#202224'
   border_color: '#ECEDEF'
   error_color: '#D64541'
 
 font_settings:
   font_embed: '<link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700|Ubuntu+Mono:400,700" rel="stylesheet">'
   title_font: 'Rubik, sans-serif'
-  body_font: '"Ubuntu Mono", sans-serif'
+  body_font: 'Rubik, sans-serif'
   regular_weight: 400
   bold_weight: 700
   site_title:
