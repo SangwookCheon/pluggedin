@@ -4,10 +4,12 @@ basic_settings:
 
 header_settings:
   logo_image: /images/logo.png
-  logo_width: 50
+  logo_width: 55
 
 menu_settings:
   menu_items:
+    - title: 'Campaign'
+      url: '/help-the-unplugged/'
     - title: 'Projects'
       url: '/'
     - title: 'Blog'
