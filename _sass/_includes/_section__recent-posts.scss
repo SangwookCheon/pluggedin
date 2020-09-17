@@ -5,14 +5,23 @@
 // - - - - - - - - - - - - - - - - - -
 
 .colored-container {
-  padding: 45px 0 45px;
+  padding: 60px 0 55px;
   background-color: #f9f9fa;
 
-  .container__content {
-    position: relative;
-    left: 50%;
-    max-width: 450px;
+  .recent-posts__header {
+    margin-bottom: 40px;
+
+    .action {
+      display: none;
+      justify-self: end;
+      align-self: center;
+    }
   }
+}
+
+.transparent-container {
+  padding: 60px 0 55px;
+  background-color: none;
 
   .recent-posts__header {
     margin-bottom: 40px;
@@ -83,4 +92,125 @@
       height: 250px;
     }
   }
+}
+
+// Styles for the Landing Page.
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 30px 15px 0px 30px;
+}
+
+.footer_left {
+  width: 40%;
+}
+
+.footer_center-1 {
+  width: 20%;
+}
+
+.footer_center-2 {
+  width: 20%;
+}
+
+.footer_right {
+  width: 20%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.landing_left_1 {
+  width: 50%;
+  padding: 30px 15px 0px 0px;
+    img {
+      max-width:100%;
+      height:auto;
+      filter: none;
+      box-shadow: none;
+  }
+}
+
+.landing_right_1 {
+  width: 50%;
+}
+
+//reverse
+
+.landing_left_2 {
+  width: 50;
+}
+
+.landing_right_2 {
+  width: 50%;
+}
+
+// Three panes
+
+.landing_left {
+  width: 33%;
+}
+
+.landing_center {
+  width: 34%;
+}
+
+.landing_right {
+  width: 33%;
+}
+
+// For Responsive
+
+@media screen and (max-width: 800px) {
+  .footer_left {
+    width: 100%;
+  }
+
+  .footer_center-1 {
+    width: 50%;
+  }
+
+  .footer_center-2 {
+    width: 50%;
+  }
+
+  .footer_right {
+    width: 50%;
+  }
+
+  .landing_left_1 {
+    width: 100%;
+    padding: 30px 15px 0px 0px;
+  }
+
+  .landing_right_1 {
+    width: 100%;
+    padding: 30px 15px 0px 0px;
+  }
+
+  .landing_left_2 {
+    width: 100%
+  }
+
+  .landing_right_2 {
+    width: 100%
+  }
+
+  .landing_left {
+    width: 100%;
+  }
+
+  .landing_center {
+    width: 100%;
+  }
+
+  .landing_right {
+    width: 100%;
+  }
+
 }
