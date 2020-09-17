@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Help the Unplugged
-subtitle: Help elementary students access online school by donating used mobile gadgets or providing data plans.
-description: With your help, students can attend school on time without having to sacrifice their necessities.
+subtitle: Donate used mobile gadgets to help elementary students attend online school without having to sacrifice their necessities.
+description: For months, online learning has been a luxury for students with little access to technology. They can't wait longer. You can help.
 featured_image: pl-week 1-1.jpg
 accent_color: '#36e266'
 gallery_images:
@@ -27,15 +27,29 @@ permalink: /help-the-unplugged/
 
 			<p class="intro subtitle--light">
 				{{ page.description }}
-				<a href="#" class="hero__cta button--fill contact-trigger js-contact">Get In Touch</a>
 			</p>
 		</div>
 	</section>
 
 	<section class="listing">
 		<div class="wrap">
-      <img src="/images/projects/htu-1.jpg" alt="">
+
+      {% include post-components/gallery.html
+        columns = 1
+        full_width = true
+        images = "/images/projects/htu-5.jpg, /images/projects/htu-6.jpg
+        "
+      %}
+
 		</div>
+
+    <section class="colored-container">
+      <div class="wrap grid">
+          <h2>Hello</h2>
+          <p class="project__subtitle subtitle--light">For the last two years, before Covid-19, we introduced fun computer skills to young students in MI Al-Hurriyah, located only 700 meters away from our campus.</p>
+      </div>
+    </section>
+
 	</section>
 
 	<!-- {% include section__about.html %} -->

@@ -4,6 +4,27 @@
 
 // - - - - - - - - - - - - - - - - - -
 
+.colored-container {
+  padding: 45px 0 45px;
+  background-color: #f9f9fa;
+
+  .container__content {
+    position: relative;
+    left: 50%;
+    max-width: 450px;
+  }
+
+  .recent-posts__header {
+    margin-bottom: 40px;
+
+    .action {
+      display: none;
+      justify-self: end;
+      align-self: center;
+    }
+  }
+}
+
 .recent-posts {
   padding: 64px 0 80px;
   background-color: rgba(#e3f0ff, 0.52);
