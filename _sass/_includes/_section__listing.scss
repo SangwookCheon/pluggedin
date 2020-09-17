@@ -9,6 +9,11 @@
   overflow: hidden;
 }
 
+.swipe-image-size {
+  width: 10%;
+  object-fit: cover;
+}
+
 .project__preview {
   position: relative;
   width: 100%;

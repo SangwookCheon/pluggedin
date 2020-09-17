@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Help the Unplugged
-description: Help elementary students access online school by donating used mobile gadgets or providing data plans.
+subtitle: Help elementary students access online school by donating used mobile gadgets or providing data plans.
+description: With your help, students can attend school on time without having to sacrifice their necessities.
 featured_image: pl-week 1-1.jpg
-accent_color: '#4C60E6'
+accent_color: '#36e266'
 gallery_images:
-  - demo.jpg
-  - demo.jpg
-  - demo.jpg
+  - htu-1.jpg
+  - htu-2.jpg
+  - htu-3.jpg
 permalink: /help-the-unplugged/
 ---
 
@@ -33,31 +34,7 @@ permalink: /help-the-unplugged/
 
 	<section class="listing">
 		<div class="wrap">
-
-			{% for project in site.projects reversed %}
-
-			{% if project.accent_color %}{% capture accent_color %}{{ project.accent_color }}{% endcapture %}{% endif %}
-
-			<article class="project__preview">
-				<h3 class="project__title"><a href="{{ project.url | relative_url }}" style="--accent: {{ accent_color }}">{{ project.title }}</a></h3>
-
-				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
-					{% for image in project.gallery_images %}
-					<a href="{{ project.url | relative_url }}"><img src="{{ '/images/projects/' | relative_url}}{{ image }}" alt="" class="project__image"></a>
-					{% endfor %}
-				</div>
-
-				<div class="project__content grid" style="border-color: {{ accent_color }}">
-					<p class="project__subtitle subtitle--light">{{ project.subtitle }}</p>
-					<p class="project__description --small">
-						{{ project.description }}
-						<a href="{{ project.url | relative_url }}" class="project__link button--text --right"
-							style="color: {{ accent_color }}; --color-var: {{ accent_color }}">View Project</a>
-					</p>
-				</div>
-			</article>
-
-			{% endfor %}
+      <img src="/images/projects/htu-1.jpg" alt="">
 		</div>
 	</section>
 
