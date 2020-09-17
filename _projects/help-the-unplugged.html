@@ -114,8 +114,19 @@ permalink: /help-the-unplugged/
     </section>
 
     <section class="transparent-container">
+      <div class="wrap">
+
+        {% include post-components/gallery.html
+          columns = 3
+          full_width = true
+          images = "/images/help-the-unplugged/sample-package-1.jpg, /images/help-the-unplugged/sample-package-2.jpg, /images/help-the-unplugged/sample-package-3.jpg
+          "
+        %}
+
+      </div>
       <div class="wrap grid">
           <h2>Device - School - Student</h2>
+
           <p class="project__subtitle subtitle--light">Your device will be set as the property of MI-Alhurriyah, allowing teachers to use your donations for any situation in the future, not just COVID-19.</p>
           <p class="project__subtitle subtitle--light">We have set up a system to manage all devices without infringing upon students' privacy to address your security or privacy concerns.</p>
           <br>
