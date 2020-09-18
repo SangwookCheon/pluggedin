@@ -30,7 +30,7 @@ post_settings:
 
 contact_settings:
   email_address: 'plugged-in-jis@jisedu.or.id'
-  form_action: 'https://formspree.io/hello@jekyllthemes.io'
+  form_action: 'https://formspree.io/xnqoaybv'
   confirmation_url: '/thanks'
   email_subject: 'Contact form submission'
   send_button_text: 'Get in Touch'
