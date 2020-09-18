@@ -3,8 +3,8 @@ basic_settings:
   favicon_image: /images/favicon.png
 
 header_settings:
-  logo_image: /images/logo.png
-  logo_width: 55
+  logo_image: /images/favicon.png
+  logo_width: 100
 
 menu_settings:
   menu_items:
@@ -23,7 +23,7 @@ footer_settings:
   tagline: Service Club @ Jakarta Intercultural School
 
 hero_settings:
-  background_image: /images/backgrounds/background-hero.svg
+  background_image: /images/backgrounds/sample-2.png
 
 post_settings:
   grid_spacing: 10

@@ -19,6 +19,21 @@
   }
 }
 
+.colored-container-2 {
+  padding: 60px 0 55px;
+  background-color: #f6fff5;
+
+  .recent-posts__header {
+    margin-bottom: 40px;
+
+    .action {
+      display: none;
+      justify-self: end;
+      align-self: center;
+    }
+  }
+}
+
 .transparent-container {
   padding: 60px 0 55px;
   background-color: none;
