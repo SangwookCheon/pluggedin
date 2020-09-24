@@ -1,5 +1,5 @@
 ---
-title: Appreciation Corner
+title: Appreciation Corner No.1
 date: 2020-09-16
 description: This is a page where we show appreciation towards all kind donors. We could not have made this possible with you. Thank you.
 featured_image: /images/help-the-unplugged/package.jpg
@@ -28,6 +28,6 @@ September 15th, 2020.
 {% include post-components/gallery.html
   columns = 1
   full_width = true
-  images = "/images/help-the-unplugged/packages-1-open/IMG_7399.JPG, /images/help-the-unplugged/packages-1-open/IMG_7400.JPG, /images/help-the-unplugged/packages-1-open/IMG_7401.JPG, /images/help-the-unplugged/packages-1-open/IMG_7405.JPG, /images/help-the-unplugged/packages-1-open/IMG_7406.JPG, /images/help-the-unplugged/packages-1-open/IMG_7408.JPG, /images/help-the-unplugged/packages-1-open/IMG_7412.JPG, /images/help-the-unplugged/packages-1-open/IMG_7413.JPG, /images/help-the-unplugged/packages-1-open/IMG_7416.JPG, /images/help-the-unplugged/packages-1-open/IMG_7418.JPG, /images/help-the-unplugged/packages-1-open/IMG_7421.JPG, /images/help-the-unplugged/packages-1-open/IMG_742.JPG
+  images = "/images/help-the-unplugged/packages-1-open/IMG_7399.JPG, /images/help-the-unplugged/packages-1-open/IMG_7400.JPG, /images/help-the-unplugged/packages-1-open/IMG_7401.JPG, /images/help-the-unplugged/packages-1-open/IMG_7405.JPG, /images/help-the-unplugged/packages-1-open/IMG_7406.JPG, /images/help-the-unplugged/packages-1-open/IMG_7408.JPG, /images/help-the-unplugged/packages-1-open/IMG_7412.JPG, /images/help-the-unplugged/packages-1-open/IMG_7413.JPG, /images/help-the-unplugged/packages-1-open/IMG_7416.JPG, /images/help-the-unplugged/packages-1-open/IMG_7418.JPG, /images/help-the-unplugged/packages-1-open/IMG_7421.JPG, /images/help-the-unplugged/packages-1-open/IMG_7422.JPG
   "
 %}
