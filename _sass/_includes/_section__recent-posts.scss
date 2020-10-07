@@ -34,6 +34,22 @@
   }
 }
 
+.colored-container-3 {
+  padding: 60px 0 55px;
+  background-color: #006EFF;
+  color: white;
+
+  .recent-posts__header {
+    margin-bottom: 40px;
+
+    .action {
+      display: none;
+      justify-self: end;
+      align-self: center;
+    }
+  }
+}
+
 .transparent-container {
   padding: 60px 0 55px;
   background-color: none;
